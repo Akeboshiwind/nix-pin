@@ -76,10 +76,9 @@ Full example w/ nixpkgs & flake-utils:
           nodejs
           (pnpm.override { nodejs = nodejs; })
         ];
-        shellHook = ''
-          exec fish
-        '';
       };
     });
 }
 ```
+
+You can then start the development shell with: `nix develop -c $SHELL`
