@@ -7,6 +7,8 @@ A function to pin a package to a given nixpkgs revision.
 Search for the right pkg name and revision here:
 - https://nixhub.io
 - https://lazamar.co.uk/nix-versions
+- [Close PRs](https://github.com/NixOS/nixpkgs/pulls?q=is%3Apr+is%3Aclosed+)
+
 
 Then use the `withRevision` function like so:
 
